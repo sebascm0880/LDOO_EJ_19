@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SCM Practica5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+ 	<!-- Formulario -->
+	<h1 class="text-white">Login</h1>
+        <form class="booking-form" id="myForm" action="/LDOO_Practica5.1/MyFirstServlet">
+	<div class="row">
+	  <div class="col-lg-12 d-flex flex-column">
+	    <input name="name" placeholder="Your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" class="form-control mt-20" required="" type="text">
+	  </div>
+	  <div class="col-lg-12 d-flex flex-column">
+	    <input name="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Password'" class="form-control mt-20" required="" type="password">
+	  </div>
+          <div class="col-lg-12 d-flex justify-content-end send-btn">
+            <button class="genric-btn primary mt-20 text-uppercase ">Login</button>
+          </div>
+        </div>
+        </form>
+    </body>
+</html>
